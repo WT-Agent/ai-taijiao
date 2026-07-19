@@ -1240,12 +1240,7 @@ textarea:focus {
 }
 
 
- /* 右上角常驻悬浮分享按钮 - 炫彩高亮版 */
-.floating-share-btn {
-  position: fixed;
-[diff_block_end]
-
-Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.
+ 
 
 /* 右上角常驻悬浮分享按钮 - 炫彩高亮版 */
 .floating-share-btn {
