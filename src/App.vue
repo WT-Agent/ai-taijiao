@@ -346,7 +346,7 @@ const metricsList = [
   { key: 'developmentMatch', label: '发育契合度 (Match)' }
 ];
 
-const aiScores = ref<{ auditorySafety: number; emotionalBonding: number; fetalResponse: number; maternalRelaxation: number; developmentMatch: number; } | null>(null);
+const aiScores = ref<Record<string, number> | null>(null);
 
 const styleOptions = [
   { label: '莫扎特音乐与音律熏陶流 (莫扎效应/低频乐音/听觉神经滋养/安全分贝)', value: '莫扎特音乐与音律熏陶流' },
@@ -364,7 +364,7 @@ interface HistoryItem {
   destination: string;
   input: string;
   styleLabel: string;
-  aiScores: { auditorySafety: number; emotionalBonding: number; fetalResponse: number; maternalRelaxation: number; developmentMatch: number; } | null;
+  aiScores: Record<string, number> | null;
   output: string;
 }
 
